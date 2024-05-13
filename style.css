@@ -144,3 +144,7 @@ header{
 footer{
   text-align: center;
 }
+.instagram_pictures{
+  display: flex;
+  gap: 42px;
+}
