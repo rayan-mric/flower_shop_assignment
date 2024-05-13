@@ -26,11 +26,12 @@ header{
     background-color: rgba(229, 84, 115, 10%) ;
 }
 .header_items{
-    margin: 100px 10px 0px 100px;
+    margin: 00px 0px 0px 200px;
     position: relative;
 }
 .header_text_part{
-  width: 40%;
+  width: 45%;
+  margin-top: 100px;
 }
 
 .header_img_part{
@@ -39,11 +40,11 @@ header{
   margin-right: 0px;
 }
 .primary_button{
-    background-color:#E55473 ;
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    border-style: none;
+  background-color:#E55473 ;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border-style: none;
 }
 .header_items>img{
   position: absolute;
@@ -56,18 +57,20 @@ header{
     font-size: 18px;
 }
 .header_title{
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .featured_flower{
   text-align: center;
+  
 }
 .rectengular_box{
-  height: 438px;
-  width: 364px;
+  height: 605px;
+  width: 464px;
   border-radius: 300px 300px 0px 0px;
   position: relative;
-  margin: 20px;
+  /* margin: 20px; */
+ 
 }
 .caption{
   text-align: center;
@@ -87,6 +90,7 @@ header{
 .flower_boxes{
   display: flex;
   justify-content: center;
+  gap: 50px;
 }
 .pink_flower{
   background-color: rgba(167, 33, 98, 15%);
@@ -98,7 +102,8 @@ header{
  background-color:rgb(71, 125, 17, 15%); 
 }
 .main_section{
-  margin: 100px 150px ;
+  margin: 100px 200px ;
+  text-align: center;
 
 }
 .get_latest_deals{
@@ -109,10 +114,12 @@ header{
   display: flex;
   background-color:#ECECEC ;
   justify-content: center;
+  gap: 50px;
 }
 .highlighted_feature{
   text-align: center;
   margin: 50px;
+ 
 }
 
 .hot_deal{
@@ -124,16 +131,15 @@ header{
   align-items: center;
 
 }
-.hot_deal_title{
+.body_title{
   font-size: 40px;
 }
 
 .hot_deal_text{
  text-align: center;
  margin:0px 100px 0px 0px;
- 
-
 }
+
 
 footer{
   text-align: center;
