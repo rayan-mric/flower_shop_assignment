@@ -19,25 +19,24 @@ body{
 }
 
 header{
-    width: 100%;
-    height: 950px ;
+    width:100%;
+    height: 900px ;
     display: flex;
-    padding: 50px;
-    
- 
+    padding: 0px 0px 0px 0px;
     background-color: rgba(229, 84, 115, 10%) ;
 }
 .header_items{
     margin: 100px 10px 0px 100px;
-    width: 10% ;
     position: relative;
 }
 .header_text_part{
-  width: 50%;
+  width: 40%;
 }
 
 .header_img_part{
-  width: 40%;
+  margin-left: 150px;
+  width: 20%;
+  margin-right: 0px;
 }
 .primary_button{
     background-color:#E55473 ;
