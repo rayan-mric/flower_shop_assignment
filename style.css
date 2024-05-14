@@ -42,16 +42,19 @@ header{
 .primary_button{
   background-color:#E55473 ;
   color: #fff;
-  padding: 15px 30px;
+  padding: 22px 30px;
   border-radius: 5px;
   border-style: none;
+  font-size: 20px;
 }
 .header_items>img{
   position: absolute;
   bottom: 0px;
 }
 .paragraph{
+  font-weight: 400;
   font-size: 18px;
+  color: rgba(39, 39, 39, 60%);
 }
 .header_text{
     font-size: 18px;
@@ -69,7 +72,7 @@ header{
   width: 464px;
   border-radius: 300px 300px 0px 0px;
   position: relative;
-  /* margin: 20px; */
+
  
 }
 .caption{
@@ -105,9 +108,6 @@ header{
   margin: 100px 200px ;
   text-align: center;
 
-}
-.get_latest_deals{
-  background-image: url(media/Rectangle\ 9.png);
 }
 
 .highlighted_area{
@@ -147,4 +147,24 @@ footer{
 .instagram_pictures{
   display: flex;
   gap: 42px;
+}
+.get_latest_deals{
+  background-image: url(media/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  /* height: 450px; */
+  text-align: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+.latest_deals_items input{
+  width: 700px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 10px ;
+  border: none;
+}
+.form{
+  display: flex;
+ 
+  justify-content: center;
 }
