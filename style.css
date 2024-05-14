@@ -107,7 +107,6 @@ header{
 .main_section{
   margin: 100px 200px ;
   text-align: center;
-
 }
 
 .highlighted_area{
@@ -141,9 +140,7 @@ header{
 }
 
 
-footer{
-  text-align: center;
-}
+
 .instagram_pictures{
   display: flex;
   gap: 42px;
@@ -165,6 +162,19 @@ footer{
 }
 .form{
   display: flex;
- 
   justify-content: center;
+}
+footer{
+  text-align: center;
+  background-color: #111010 ;
+  padding: 100px;
+}
+.white_text{
+  color: #fff;
+}
+#footer_white{
+  color: rgba(255, 255, 255, 40%);
+}
+.pink_text{
+  color:#E55473
 }
