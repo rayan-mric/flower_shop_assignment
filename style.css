@@ -121,7 +121,7 @@ header{
  
 }
 
-.hot_deal{
+.hot_deal,.valentine_deal{
   background-color:  rgba(229, 84, 115, 10%);
   display: flex;
   padding: 50px 150px;
@@ -134,7 +134,7 @@ header{
   font-size: 40px;
 }
 
-.hot_deal_text{
+.hot_deal_text, .valentine_deal_text{
  text-align: center;
  margin:0px 100px 0px 0px;
 }
